@@ -88,6 +88,11 @@ def procesar_webhook():
     payload = request.data  # Obtener bytes RAW del request
     expected_signature = f"sha256={hmac.new(app_secret.encode(), payload, hashlib.sha256).hexdigest()}"
 
+    # Log para debug
+    print(f"DEBUG - Firma recibida: {x_hub_signature[:50] if x_hub_signature else 'VACÍA'}")
+    print(f"DEBUG - Firma esperada: {expected_signature[:50]}")
+    print(f"DEBUG - Payload length: {len(payload)}")
+
     # Validar que la firma coincida
     if not hmac.compare_digest(x_hub_signature, expected_signature):
         print("✗ Firma HMAC inválida - Posible solicitud no autorizada")
