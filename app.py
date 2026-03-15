@@ -85,7 +85,7 @@ def procesar_webhook():
     x_hub_signature = request.headers.get("X-Hub-Signature-256", "")
 
     # Calcular la firma esperada
-    payload = request.get_data()  # Obtener bytes RAW del request
+    payload = request.data  # Obtener bytes RAW del request
     expected_signature = f"sha256={hmac.new(app_secret.encode(), payload, hashlib.sha256).hexdigest()}"
 
     # Validar que la firma coincida
