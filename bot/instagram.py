@@ -11,16 +11,16 @@ from typing import Optional
 class InstagramAPI:
     """Cliente para interactuar con Meta Graph API."""
 
-    def __init__(self, access_token: str, page_id: str):
+    def __init__(self, access_token: str, instagram_business_account_id: str):
         """
         Inicializa el cliente de Instagram API.
 
         Args:
             access_token (str): Page Access Token de Meta
-            page_id (str): ID de la página de Facebook
+            instagram_business_account_id (str): ID de la cuenta Instagram Business
         """
         self.access_token = access_token
-        self.page_id = page_id
+        self.instagram_business_account_id = instagram_business_account_id
         self.api_version = "v18.0"
         self.base_url = f"https://graph.instagram.com/{self.api_version}"
 
@@ -35,7 +35,7 @@ class InstagramAPI:
         Returns:
             bool: True si se envió exitosamente, False en caso contrario
         """
-        url = f"{self.base_url}/{self.page_id}/messages"
+        url = f"{self.base_url}/{self.instagram_business_account_id}/messages"
 
         payload = {
             "messaging_type": "RESPONSE",
@@ -97,9 +97,9 @@ def crear_cliente_instagram() -> InstagramAPI:
         InstagramAPI: Cliente configurado
     """
     token = os.getenv("INSTAGRAM_ACCESS_TOKEN")
-    page_id = os.getenv("INSTAGRAM_PAGE_ID")
+    instagram_business_account_id = os.getenv("INSTAGRAM_BUSINESS_ACCOUNT_ID")
 
-    if not token or not page_id:
-        raise ValueError("INSTAGRAM_ACCESS_TOKEN y INSTAGRAM_PAGE_ID son requeridos en .env")
+    if not token or not instagram_business_account_id:
+        raise ValueError("INSTAGRAM_ACCESS_TOKEN e INSTAGRAM_BUSINESS_ACCOUNT_ID son requeridos en .env")
 
-    return InstagramAPI(token, page_id)
+    return InstagramAPI(token, instagram_business_account_id)
