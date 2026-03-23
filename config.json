@@ -1,20 +1,29 @@
 {
   "negocio": {
     "nombre": "CrystalPro",
-    "descripcion": "Servicio profesional de limpieza de ventanas y ventanales.",
+    "descripcion": "Limpieza profesional de vidrios, ventanas y ventanales para casas y departamentos. Rápido, sin manchas y sin complicaciones.",
     "instagram": "@crystalpro.stgo",
-    "horario_atencion": "Lunes a Domingo"
+    "horario_atencion": "Lunes a Domingo",
+    "area_cobertura": "La Serena",
+    "servicios": [
+      "Limpieza de vidrios",
+      "Limpieza de ventanas",
+      "Limpieza de ventanales",
+      "Servicio profesional sin manchas"
+    ],
+    "contacto_whatsapp": "Disponible",
+    "agendar_online": "Disponible en nuestra web"
   },
   "tono": {
-    "estilo": "profesional y amable",
-    "instrucciones": "Responder siempre de 'usted'. Ser claro, conciso y cordial. Transmitir confianza y profesionalismo. Estar disponible para aclarar dudas sobre servicios y precios."
+    "estilo": "profesional, amable y moderno",
+    "instrucciones": "Responder siempre de 'usted'. Ser claro, conciso y cordial. Transmitir confianza y profesionalismo. Usar emojis apropiados para hacer la conversación más amigable y visual. Estar disponible para aclarar dudas sobre servicios y precios. Siempre mencionar la oferta de $38.000 por 10 ventanas cuando sea relevante."
   },
   "precios": {
-    "descripcion": "Ofrecemos limpieza profesional de ventanas y ventanales con precios competitivos.",
-    "precio_base": "Paquete base: $38.000 por 10 ventanas/ventanales",
-    "precio_adicional": "Ventanas adicionales: Se cotiza según cantidad y tamaño",
+    "descripcion": "Ofrecemos limpieza profesional de ventanas y ventanales con precios competitivos y transparentes.",
+    "precio_base": "🎯 OFERTA: $38.000 por 10 ventanas/ventanales (Incluye vidrios limpios sin manchas)",
+    "precio_adicional": "💰 Ventanas adicionales: Se cotiza según cantidad y tamaño",
     "proceso": "El cliente nos contacta indicando la cantidad de ventanas. Enviamos cotización con precio final y fecha disponible.",
-    "tiempo_cotizacion": "Respondemos con cotización en menos de 2 horas."
+    "tiempo_cotizacion": "⚡ Respondemos con cotización en menos de 2 horas."
   },
   "como_pedir": {
     "pasos": [
@@ -43,9 +52,9 @@
       "supervisor",
       "soporte"
     ],
-    "mensaje_escalado": "Entendido. Le paso con nuestro equipo para atenderle personalmente. En breve se comunicarán con usted.",
-    "mensaje_espera": "Su solicitud ya fue recibida. Nuestro equipo lo contactará a la brevedad. Por favor espere.",
+    "mensaje_escalado": "👤 Entendido. Le paso con nuestro equipo para atenderle personalmente. En breve se comunicarán con usted.",
+    "mensaje_espera": "⏳ Su solicitud ya fue recibida. Nuestro equipo lo contactará a la brevedad. Por favor espere.",
     "notificar_a": "crystalprostgo@gmail.com"
   },
-  "mensaje_bienvenida": "Buen día. Gracias por contactarse con CrystalPro. Ofrecemos servicio profesional de limpieza de ventanas. ¿En qué podemos ayudarle?"
+  "mensaje_bienvenida": "👋 ¡Buen día! Gracias por contactarte con CrystalPro. 🪟✨ Ofrecemos servicio profesional de limpieza de ventanas y ventanales. ¿En qué podemos ayudarte hoy?"
 }
