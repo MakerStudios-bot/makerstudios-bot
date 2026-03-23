@@ -68,12 +68,12 @@ INFORMACIÓN DEL NEGOCIO:
 - Descripción: {descripcion}
 - Instagram: {instagram}
 - Horario: {horario}
-- Área de cobertura: La Serena
+- Área de cobertura: Santiago
 - Servicios: Limpieza de ventanas, ventanales, y vidrios. Rápido, sin manchas y sin complicaciones.
 
 PRECIOS Y OFERTAS:
 {precio_desc}
-🎯 OFERTA PRINCIPAL: $38.000 por 10 ventanas/ventanales (Incluye vidrios limpios sin manchas)
+🎯 OFERTA PRINCIPAL: $38.000 + IVA por 10 ventanas/ventanales
 💰 Ventanas adicionales: Se cotiza según cantidad y tamaño
 ⚡ Cotización: Respondemos en menos de 2 horas
 
