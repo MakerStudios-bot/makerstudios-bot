@@ -9,7 +9,7 @@ from anthropic import Anthropic
 
 
 class ClaudeAgent:
-    """Agente Claude para generar respuestas automáticas de MakerStudios."""
+    """Agente Claude para generar respuestas automáticas de CrystalPro."""
 
     def __init__(self, config_file: str = "config.json"):
         """
@@ -49,7 +49,7 @@ class ClaudeAgent:
         como_pedir = config.get("como_pedir", {})
 
         # Extraer información
-        nombre = negocio.get("nombre", "MakerStudios")
+        nombre = negocio.get("nombre", "CrystalPro")
         descripcion = negocio.get("descripcion", "")
         instagram = negocio.get("instagram", "")
         horario = negocio.get("horario_atencion", "")

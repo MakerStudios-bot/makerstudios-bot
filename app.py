@@ -45,7 +45,7 @@ def health_check():
     """Health check del servidor."""
     return jsonify({
         "status": "ok",
-        "mensaje": "Bot de MakerStudios activo",
+        "mensaje": "Bot de CrystalPro activo",
         "timestamp": __import__("datetime").datetime.now().isoformat()
     }), 200
 
@@ -191,7 +191,7 @@ def manejar_respuesta_normal(sender_id: str, texto: str, historial: list):
 
     # Si es un saludo, agregar aclaración de asistente automático
     if claude_agent.detectar_saludo(texto):
-        respuesta = f"Soy un asistente automático de MakerStudios.\n\n{respuesta}"
+        respuesta = f"Soy un asistente automático de CrystalPro.\n\n{respuesta}"
 
     # Enviar respuesta a través de Instagram
     if instagram_client.enviar_mensaje(sender_id, respuesta):
@@ -259,11 +259,11 @@ if __name__ == "__main__":
     debug = os.getenv("FLASK_DEBUG", "False").lower() == "true"
 
     print("\n" + "="*60)
-    print("🚀 Bot de MakerStudios iniciando...")
+    print("🚀 Bot de CrystalPro iniciando...")
     print("="*60)
     print(f"Puerto: {puerto}")
     print(f"Debug: {debug}")
-    print(f"Negocio: {claude_agent.config.get('negocio', {}).get('nombre', 'MakerStudios')}")
+    print(f"Negocio: {claude_agent.config.get('negocio', {}).get('nombre', 'CrystalPro')}")
     print("="*60 + "\n")
 
     app.run(host="0.0.0.0", port=puerto, debug=debug)

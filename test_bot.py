@@ -73,7 +73,7 @@ def verificar_config():
         with open("config.json", "r", encoding="utf-8") as f:
             config = json.load(f)
 
-        nombre = config.get("negocio", {}).get("nombre", "MakerStudios")
+        nombre = config.get("negocio", {}).get("nombre", "CrystalPro")
         instagram = config.get("negocio", {}).get("instagram", "")
         email_escalado = config.get("escalado", {}).get("notificar_a", "")
 
@@ -189,7 +189,7 @@ def test_instagram():
 def main():
     """Función principal de pruebas."""
     print("\n" + "="*60)
-    print("🧪 Test de Configuración - MakerStudios Bot")
+    print("🧪 Test de Configuración - CrystalPro Bot")
     print("="*60)
 
     # Verificar archivos

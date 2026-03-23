@@ -84,7 +84,7 @@ class EmailNotifier:
 
                     <hr>
                     <p style="color: #666; font-size: 12px;">
-                        Este mensaje fue generado automáticamente por el bot de MakerStudios.
+                        Este mensaje fue generado automáticamente por el bot de CrystalPro.
                         <br>Por favor, contacta al cliente lo antes posible.
                     </p>
                 </body>
