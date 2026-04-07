@@ -126,7 +126,7 @@ IMPORTANTE: Mantén las respuestas cortas (máximo 3-4 párrafos). El cliente es
         try:
             # Llamar a Claude con el historial
             respuesta = self.client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model="claude-haiku-4-5-20251001",
                 max_tokens=500,
                 system=self.system_prompt,
                 messages=historial_limitado
