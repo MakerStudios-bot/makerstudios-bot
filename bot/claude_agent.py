@@ -11,7 +11,7 @@ from anthropic import Anthropic
 class ClaudeAgent:
     """Agente Claude para generar respuestas automáticas de MakerStudios."""
 
-    def __init__(self, config_file: str = "config.json"):
+    def __init__(self, config_file: str = "makerstudios_config.json"):
         """
         Inicializa el agente Claude.
 
@@ -191,7 +191,7 @@ IMPORTANTE: Mantén las respuestas cortas (máximo 3-4 párrafos). El cliente es
         return False
 
 
-def crear_agent_claude(config_file: str = "config.json") -> ClaudeAgent:
+def crear_agent_claude(config_file: str = "makerstudios_config.json") -> ClaudeAgent:
     """
     Factory function para crear un agente Claude.
 
