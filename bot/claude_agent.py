@@ -9,7 +9,7 @@ from anthropic import Anthropic
 
 
 class ClaudeAgent:
-    """Agente Claude para generar respuestas automáticas de CrystalPro."""
+    """Agente Claude para generar respuestas automáticas de MakerStudios."""
 
     def __init__(self, config_file: str = "config.json"):
         """

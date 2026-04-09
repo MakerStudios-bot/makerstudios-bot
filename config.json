@@ -1,39 +1,30 @@
 {
   "negocio": {
-    "nombre": "CrystalPro",
-    "descripcion": "Limpieza profesional de vidrios, ventanas y ventanales para casas y departamentos. Rápido, sin manchas y sin complicaciones.",
-    "instagram": "@crystalpro.stgo",
-    "horario_atencion": "Lunes a Domingo",
-    "area_cobertura": "Santiago",
-    "servicios": [
-      "Limpieza de vidrios",
-      "Limpieza de ventanas",
-      "Limpieza de ventanales",
-      "Servicio profesional sin manchas"
-    ],
-    "contacto_whatsapp": "Disponible",
-    "agendar_online": "Disponible en nuestra web"
+    "nombre": "MakerStudios",
+    "descripcion": "Servicio profesional de impresión 3D personalizada. Fabricamos piezas, prototipos y modelos a pedido.",
+    "instagram": "@makerstudios.cl",
+    "horario_atencion": "24/7"
   },
   "tono": {
-    "estilo": "profesional, amable y moderno",
-    "instrucciones": "Responder siempre de 'usted'. Ser claro, conciso y cordial. Transmitir confianza y profesionalismo. Usar emojis apropiados para hacer la conversación más amigable y visual. Estar disponible para aclarar dudas sobre servicios y precios. Siempre mencionar la oferta de $38.000 por 10 ventanas cuando sea relevante."
+    "estilo": "profesional y formal",
+    "instrucciones": "Responder siempre de 'usted'. Ser claro, conciso y cordial. Evitar emojis excesivos. Transmitir confianza y expertise técnico."
   },
   "precios": {
-    "descripcion": "Ofrecemos limpieza profesional de ventanas y ventanales con precios competitivos y transparentes.",
-    "precio_base": "🎯 OFERTA: $38.000 + IVA por 10 ventanas/ventanales",
-    "precio_adicional": "💰 Ventanas adicionales: Se cotiza según cantidad y tamaño",
-    "proceso": "El cliente nos contacta indicando la cantidad de ventanas. Enviamos cotización con precio final y fecha disponible.",
-    "tiempo_cotizacion": "⚡ Respondemos con cotización en menos de 2 horas."
+    "descripcion": "Los precios dependen del tamaño, material y complejidad de cada pieza. No tenemos un mínimo establecido, cada proyecto se cotiza de forma personalizada.",
+    "proceso": "El cliente debe enviarnos el archivo STL o una descripción/foto del modelo para cotizar.",
+    "tiempo_cotizacion": "Respondemos con cotización en menos de 24 horas hábiles.",
+    "materiales_disponibles": ["PLA", "PETG", "TPU", "ABS"],
+    "precio_base": "Cada proyecto se cotiza individualmente según los requerimientos del cliente."
   },
   "como_pedir": {
     "pasos": [
-      "1. Contáctenos indicando la cantidad de ventanas/ventanales a limpiar.",
-      "2. Le enviamos cotización con precio y disponibilidad.",
-      "3. Confirma el servicio y coordinamos fecha y hora.",
-      "4. Nuestro equipo llega y realiza el trabajo con profesionalismo."
+      "1. El cliente nos envía el archivo STL o una descripción detallada de lo que necesita.",
+      "2. Nosotros enviamos una cotización con precio, tiempo estimado y material recomendado.",
+      "3. El cliente aprueba y realiza el pago (50% adelanto).",
+      "4. Iniciamos la impresión y coordinamos la entrega o retiro."
     ],
-    "informacion_necesaria": ["Cantidad de ventanas", "Ubicación (zona)", "Tamaño aproximado"],
-    "pago": "Se coordina al momento de confirmar el servicio."
+    "formatos_aceptados": ["STL", "OBJ", "STEP", "foto de referencia"],
+    "pago": "Transferencia bancaria o efectivo. Se solicita 50% de anticipo."
   },
   "escalado": {
     "trigger_palabras": [
@@ -52,9 +43,9 @@
       "supervisor",
       "soporte"
     ],
-    "mensaje_escalado": "👤 Entendido. Le paso con nuestro equipo para atenderle personalmente. En breve se comunicarán con usted.",
-    "mensaje_espera": "⏳ Su solicitud ya fue recibida. Nuestro equipo lo contactará a la brevedad. Por favor espere.",
-    "notificar_a": "crystalprostgo@gmail.com"
+    "mensaje_escalado": "Entendido. Le paso con nuestro equipo para atenderle personalmente. En breve se comunicarán con usted.",
+    "mensaje_espera": "Su solicitud ya fue recibida. Nuestro equipo lo contactará a la brevedad. Por favor espere.",
+    "notificar_a": "makerstudios.cl@gmail.com"
   },
-  "mensaje_bienvenida": "👋 ¡Buen día! Gracias por contactarte con CrystalPro. 🪟✨ Ofrecemos servicio profesional de limpieza de ventanas y ventanales. ¿En qué podemos ayudarte hoy?"
+  "mensaje_bienvenida": "Buen día. Gracias por contactarse con MakerStudios. ¿En qué le podemos ayudar con respecto a nuestro servicio de impresión 3D?"
 }
