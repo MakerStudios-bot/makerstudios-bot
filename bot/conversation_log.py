@@ -11,7 +11,7 @@ from threading import Lock
 # Lock para thread-safety en operaciones de archivo
 log_lock = Lock()
 
-CONVERSATIONS_FILE = "conversations.json"
+CONVERSATIONS_FILE = "makerstudios_conversations.json"
 
 
 def inicializar_log():

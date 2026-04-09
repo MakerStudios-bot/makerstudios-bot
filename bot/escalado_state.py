@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-ESCALATED_USERS_FILE = Path(__file__).parent.parent / "escalated_users.json"
+ESCALATED_USERS_FILE = Path(__file__).parent.parent / "makerstudios_escalated_users.json"
 
 
 def inicializar_archivo_escalados():
