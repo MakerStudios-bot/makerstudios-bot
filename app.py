@@ -191,7 +191,7 @@ def manejar_respuesta_normal(sender_id: str, texto: str, historial: list):
 
     # Si es un saludo, agregar aclaración de asistente automático
     if claude_agent.detectar_saludo(texto):
-        respuesta = f"Soy un asistente automático de CrystalPro.\n\n{respuesta}"
+        respuesta = f"Soy un asistente automático de MakerStudios.\n\n{respuesta}"
 
     # Enviar respuesta a través de Instagram
     if instagram_client.enviar_mensaje(sender_id, respuesta):
